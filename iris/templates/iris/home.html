@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if Result %}
+    {{Result}}
+    {% endif %}
+    <h1> Iris machine learning application</h1>
+    <form method="POST">
+        {% csrf_token %} 
+       sepal length: <input type="text" name="Sepal_length" required><br>
+       sepal width: <input type="text" name="Sepal_width" required><br>
+       petal width: <input type="text" name="Petal_width" required><br>
+       petal length: <input type="text" name="Petal_length" required><br>
+       <input type="submit"><br>
+    </form>
+    
+</body>
+</html>
