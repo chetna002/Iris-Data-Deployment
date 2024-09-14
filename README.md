@@ -10,12 +10,19 @@ Iris-Classification/
 ├── data/
 │   └── iris.csv            # The Iris dataset in CSV format (optional, if you want to start with a CSV)
 │
+
+
+
+
 ├── src/
 │   ├── data_preparation.py # Script to process and prepare the data
 │   ├── model.py            # Script for training and saving the model
 │   ├── evaluate.py         # Script for evaluating the model
 │   └── predict.py          # Script for making predictions
 │
+
+
+
 ├── app/
 │   ├── app.py              # django application for deployment
 │   └── templates/
@@ -25,11 +32,13 @@ Iris-Classification/
 ├── README.md               # Project documentation
 └── .gitignore              # Git ignore file
 
-Troubleshooting
+Troubleshooting:
+
+
  Dependencies Issues: Ensure all packages in requirements.txt are installed. Use pip install -r requirements.txt.
  Model Not Loading: Verify that iris_model.joblib exists in the src/ directory and is correctly referenced in app.py.
  
-Acknowledgments
+Acknowledgments:
 
 Iris dataset from the UCI Machine Learning Repository.
 django documentation for deployment guidance.
